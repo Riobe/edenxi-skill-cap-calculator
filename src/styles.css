@@ -1,0 +1,15 @@
+body,
+#root,
+#App {
+  height: 100vh;
+}
+
+body {
+  background-color: #c18046;
+}
+
+#App {
+  min-width: 440px;
+  min-height: 620px;
+  overflow: scroll;
+}

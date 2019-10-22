@@ -1,0 +1,40 @@
+{
+  "name": "edenxi-skill-cap-calculator",
+  "author": "Riobe",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "main": "src/index.js",
+  "homepage": "https://riobe.github.io/edenxi-skill-cap-calculator",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Riobe/edenxi-skill-cap-calculator.git"
+  },
+  "dependencies": {
+    "@chakra-ui/core": "0.4.0",
+    "@emotion/core": "10.0.21",
+    "@emotion/styled": "10.0.17",
+    "emotion-theming": "10.0.19",
+    "formik": "1.5.8",
+    "react": "16.8.6",
+    "react-dom": "16.8.6",
+    "react-scripts": "3.0.1"
+  },
+  "devDependencies": {
+    "gh-pages": "2.1.1",
+    "typescript": "3.3.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "deploy": "gh-pages -d build"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
