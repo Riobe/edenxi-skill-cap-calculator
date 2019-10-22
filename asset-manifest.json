@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/edenxi-skill-cap-calculator/static/css/main.eb09f443.chunk.css",
+    "main.js": "/edenxi-skill-cap-calculator/static/js/main.d8aeb3a8.chunk.js",
+    "main.js.map": "/edenxi-skill-cap-calculator/static/js/main.d8aeb3a8.chunk.js.map",
+    "runtime~main.js": "/edenxi-skill-cap-calculator/static/js/runtime~main.5ee1b5ce.js",
+    "runtime~main.js.map": "/edenxi-skill-cap-calculator/static/js/runtime~main.5ee1b5ce.js.map",
+    "static/js/2.ceb93b3c.chunk.js": "/edenxi-skill-cap-calculator/static/js/2.ceb93b3c.chunk.js",
+    "static/js/2.ceb93b3c.chunk.js.map": "/edenxi-skill-cap-calculator/static/js/2.ceb93b3c.chunk.js.map",
+    "index.html": "/edenxi-skill-cap-calculator/index.html",
+    "precache-manifest.4168f85a30b1c31f00798cbd259629a4.js": "/edenxi-skill-cap-calculator/precache-manifest.4168f85a30b1c31f00798cbd259629a4.js",
+    "service-worker.js": "/edenxi-skill-cap-calculator/service-worker.js",
+    "static/css/main.eb09f443.chunk.css.map": "/edenxi-skill-cap-calculator/static/css/main.eb09f443.chunk.css.map"
+  }
+}

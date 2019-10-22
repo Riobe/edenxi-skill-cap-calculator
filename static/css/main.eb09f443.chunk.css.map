@@ -1,0 +1,1 @@
+{"version":3,"sources":["styles.css"],"names":[],"mappings":"AAAA,gBAGE,YACF,CAEA,KACE,wBACF,CAEA,KACE,eAAgB,CAChB,gBAAiB,CACjB,eACF","file":"main.eb09f443.chunk.css","sourcesContent":["body,\n#root,\n#App {\n  height: 100vh;\n}\n\nbody {\n  background-color: #c18046;\n}\n\n#App {\n  min-width: 440px;\n  min-height: 620px;\n  overflow: scroll;\n}\n"]}
