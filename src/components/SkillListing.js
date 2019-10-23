@@ -31,7 +31,7 @@ function SkillListing({ skillSet, header }) {
           (subJobRating || 0) &&
           rankings[subJobRating].byLevel[subJobLevel - 1];
 
-        if (!mainJobRating && !subJobRating) {
+        if (!mainJobRating && !subJobRating || isNan(mainJobRating) || isNan(subJobRating)) {
           return null;
         }
 
