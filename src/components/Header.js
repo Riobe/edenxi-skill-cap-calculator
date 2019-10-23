@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Box, Heading } from '@chakra-ui/core';
+import { Box, Heading, Link } from '@chakra-ui/core';
 
 import { useJobContext } from '../data/JobContext';
 
@@ -18,8 +18,8 @@ function Header() {
       {/*<Heading size="xs">Being worked on, expect reloads</Heading>*/}
       {mainJob && (
         <Heading id="job-header" size="xs" as="h5">
-          <span>{mainJob.abbreviation}</span>
-          {subJob && <span>/{subJob.abbreviation}</span>}
+          <Link href={mainJob.url} isExternal>{mainJob.abbreviation}</Link>
+          {subJob && <Link href={subJob.url} isExternal>/{subJob.abbreviation}</Link>}
         </Heading>
       )}
     </Box>
