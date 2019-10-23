@@ -31,13 +31,20 @@ function SkillListing({ skillSet, header }) {
           (subJobRating || 0) &&
           rankings[subJobRating].byLevel[subJobLevel - 1];
 
-        if (!mainJobRating && !subJobRating || isNan(mainJobRating) || isNan(subJobRating)) {
+        if (!mainJobRating && !subJobRating) {
           return null;
         }
 
-        let fromJob = mainJobCap ? mainJob.abbreviation : subJob.abbreviation;
+        let fromJob = mainJobCap ? mainJob.abbreviation : subJob && subJob.abbreviation;
+        if (!fromJob) {
+          return null;
+        }
 
-        console.log(header, index);
+        let skillCap = Math.max(mainJobCap, isNaN(subJobCap) ? 0 : subJobCap);
+        if (isNaN(skillCap)) {
+          skillCap = 0;
+        }
+
         return (
           <Box
             key={index}
@@ -53,7 +60,7 @@ function SkillListing({ skillSet, header }) {
               <Box flexBasis="45px">
                 {mainJobCap > subJobCap ? mainJobRating : subJobRating}
               </Box>
-              <Box flex="1">{'\t' + Math.max(mainJobCap, subJobCap)}</Box>
+              <Box flex="1">{skillCap}</Box>
             </Stack>
           </Box>
         );
