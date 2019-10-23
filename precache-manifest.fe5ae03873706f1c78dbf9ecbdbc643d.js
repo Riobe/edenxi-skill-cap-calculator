@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cc124dfeab317473e1e5b58eeb0e7480",
+    "revision": "84e8334b84213b02bc1fd3d8dcb291d9",
     "url": "/edenxi-skill-cap-calculator/index.html"
   },
   {
-    "revision": "7c70a25e001d6f94f70e",
+    "revision": "cb135ea69c9b466cf0d7",
     "url": "/edenxi-skill-cap-calculator/static/css/main.eb09f443.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/edenxi-skill-cap-calculator/static/js/2.ceb93b3c.chunk.js"
   },
   {
-    "revision": "7c70a25e001d6f94f70e",
-    "url": "/edenxi-skill-cap-calculator/static/js/main.d8aeb3a8.chunk.js"
+    "revision": "cb135ea69c9b466cf0d7",
+    "url": "/edenxi-skill-cap-calculator/static/js/main.0de8febe.chunk.js"
   },
   {
     "revision": "b31d4e8b949d6d07357e",
