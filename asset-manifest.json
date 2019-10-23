@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/edenxi-skill-cap-calculator/static/css/main.eb09f443.chunk.css",
-    "main.js": "/edenxi-skill-cap-calculator/static/js/main.ad2c4d5f.chunk.js",
-    "main.js.map": "/edenxi-skill-cap-calculator/static/js/main.ad2c4d5f.chunk.js.map",
+    "main.js": "/edenxi-skill-cap-calculator/static/js/main.2203deb4.chunk.js",
+    "main.js.map": "/edenxi-skill-cap-calculator/static/js/main.2203deb4.chunk.js.map",
     "runtime~main.js": "/edenxi-skill-cap-calculator/static/js/runtime~main.5ee1b5ce.js",
     "runtime~main.js.map": "/edenxi-skill-cap-calculator/static/js/runtime~main.5ee1b5ce.js.map",
     "static/js/2.ceb93b3c.chunk.js": "/edenxi-skill-cap-calculator/static/js/2.ceb93b3c.chunk.js",
     "static/js/2.ceb93b3c.chunk.js.map": "/edenxi-skill-cap-calculator/static/js/2.ceb93b3c.chunk.js.map",
     "index.html": "/edenxi-skill-cap-calculator/index.html",
-    "precache-manifest.b5592a787380a26021d0d4e72c3bbe31.js": "/edenxi-skill-cap-calculator/precache-manifest.b5592a787380a26021d0d4e72c3bbe31.js",
+    "precache-manifest.1cbb64a3ad42c513798dbc34d4ae83ab.js": "/edenxi-skill-cap-calculator/precache-manifest.1cbb64a3ad42c513798dbc34d4ae83ab.js",
     "service-worker.js": "/edenxi-skill-cap-calculator/service-worker.js",
     "static/css/main.eb09f443.chunk.css.map": "/edenxi-skill-cap-calculator/static/css/main.eb09f443.chunk.css.map"
   }
