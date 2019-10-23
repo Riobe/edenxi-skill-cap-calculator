@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/edenxi-skill-cap-calculator/precache-manifest.fe5ae03873706f1c78dbf9ecbdbc643d.js"
+  "/edenxi-skill-cap-calculator/precache-manifest.b5592a787380a26021d0d4e72c3bbe31.js"
 );
 
 self.addEventListener('message', (event) => {
